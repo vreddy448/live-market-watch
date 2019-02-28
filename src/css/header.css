@@ -1,0 +1,110 @@
+.nav-bar {
+    background-color: var(--app-nav-bar-bg-color);
+    line-height: 30px;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    display: inline;
+    color: var(--app-nav-bar-font-color);
+    font-size: 1.5rem;
+}
+
+.nav-right {
+    float: right!important;
+    padding-right: 4%;
+    display: inline-block;
+}
+
+.nav-left {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.app-menu {
+    top:7%;
+    position: absolute;
+    min-width: 10%;
+    width: 120px;
+    z-index: 5;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    right: 0;
+    margin-right: 2%;
+}
+
+.app-menu:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menu-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container li {
+    font-weight: 800;
+    border-bottom: 1px solid gainsboro;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 15% 20% 15% 20%;
+    cursor: pointer;
+}
+
+.menu-container li:hover {
+    background-color: gainsboro;
+}
+
+.menu-hamburger {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tip:after, .tip:before {
+    bottom: 100%;
+    left: 72%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+}
+.tip:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.tip:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-bottom-color: #ccc;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+@media only screen and (min-width: 700px) {
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .tip:after, .tip:before {
+        left:80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .tip:after, .tip:before {
+        left:85%;
+    }
+}

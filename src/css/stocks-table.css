@@ -1,0 +1,37 @@
+.stocks-table {
+    display: block;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.script-name {
+    width: 50%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+.script-section {
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-width: thin;
+}
+
+.script-price {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}

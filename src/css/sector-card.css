@@ -1,0 +1,41 @@
+.sector-card {
+    width: 30%;
+    margin: 1.5%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sector-card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.sector-card-header {
+    background-color: #ff6666;
+    color: #330000;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 5%;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .sector-card  {
+        width:100%;
+        margin: 3% 0;
+        padding: 3%;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .sector-card:hover {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}

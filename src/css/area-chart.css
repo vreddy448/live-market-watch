@@ -1,0 +1,25 @@
+.area-chart{
+    float: right;
+    align-content: center;
+    padding: 2% 6%;
+}
+
+.script-header {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-left {
+    width: 50%;
+    float: left;
+}
+
+.card-right {
+    width: 50%;
+    float: right;
+}

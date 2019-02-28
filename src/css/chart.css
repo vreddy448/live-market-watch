@@ -1,0 +1,64 @@
+.area-chart{
+    float: right;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 2% 6%;
+}
+
+.script-header {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-left {
+    width: 50%;
+    float: left;
+}
+
+.card-right {
+    width: 50%;
+    float: right;
+}
+
+.chart-button-container {
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+
+.chart-button {
+    font-size: 1.2rem;
+    border: 2px solid #bab4ec;
+    cursor: pointer;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 25px;
+    outline: none;
+    font-weight: 400;
+    color: #bab4ec;
+    background-color: white;
+}
+
+.selected {
+    color: white;
+    background-color: #bab4ec;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .area-chart{
+        float: none;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        padding: 0 0 0 2%;
+    }
+
+    .chart-button {
+        margin: 4%;
+        padding: 2% 4%;
+    }
+}
